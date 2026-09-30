@@ -1,0 +1,5 @@
+{
+  "name": "Sorting comparison C",
+  "build": {"dockerfile": "../Dockerfile", "context": ".."},
+  "customizations": {"vscode": {"extensions": ["ms-vscode.cpptools"]}}
+}

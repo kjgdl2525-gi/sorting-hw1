@@ -1,0 +1,17 @@
+Date: 2026-09-30 (Asia/Seoul)
+Runtime: ChatGPT execution environment
+OS: Linux 6.18.44 x86_64
+CPU: AMD EPYC 9V74 80-Core Processor (virtual environment, 9 exposed CPUs)
+Compiler: gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+Build: gcc -Isrc -std=c17 -Wall -Wextra -Wpedantic -O2
+Record size: 16 bytes
+Clock: CLOCK_MONOTONIC wall time
+Repetitions: 5 per condition, 1 warm-up per algorithm
+Dataset sizes: 1000, 2000, 4000, 8000, 16000
+Dataset shapes: random, sorted, reverse, duplicates
+PRNG: uint32_t LCG; state = state * 1664525 + 1013904223
+Seed: 20260930 + n + shape_index
+Verification: 624 checks, 0 failures
+Sanitizers: AddressSanitizer and UndefinedBehaviorSanitizer passed
+Leak detection disabled: ASAN_OPTIONS=detect_leaks=0 (runtime process inspection limitation)
+Results: results.csv, 60 rows
